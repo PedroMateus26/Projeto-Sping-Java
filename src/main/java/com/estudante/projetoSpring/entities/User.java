@@ -11,6 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+
 @Entity
 @Table(name="tb_user")
 public class User implements Serializable{
@@ -25,6 +26,7 @@ public class User implements Serializable{
 	private String fone;
 	private String senha;
 	
+
 	@OneToMany(mappedBy="client")
 	public List<Order> orders = new ArrayList<>();
 	
