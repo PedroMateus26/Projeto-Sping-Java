@@ -1,4 +1,4 @@
-package com.estudante.projetoSpring.resourses.exceptions;
+package com.estudante.projetoSpring.services.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException{
 
